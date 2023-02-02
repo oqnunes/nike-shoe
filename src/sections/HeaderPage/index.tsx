@@ -10,6 +10,7 @@ export default function HeaderPage() {
       <img src={ImageLogo} alt="Logo Nike Shoe Red" />
       <div className="content-menu">
         <div className="content-icon">
+          <div className="float-notify">2</div>
           <BiShoppingBag />
         </div>
         <div className="content-bar">
