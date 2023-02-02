@@ -1,8 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { GlobalStyles, ContainerLandingPage } from "./styles";
-import HeaderPage from "./sections/HeaderPage";
 
+import HeaderPage from "./sections/HeaderPage";
+import ProductSection from "./sections/ProductSection";
+
+import { GlobalStyles, ContainerLandingPage } from "./styles";
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
@@ -12,6 +14,7 @@ root.render(
     <GlobalStyles />
     <ContainerLandingPage>
       <HeaderPage />
+      <ProductSection />
     </ContainerLandingPage>
   </React.StrictMode>
 );

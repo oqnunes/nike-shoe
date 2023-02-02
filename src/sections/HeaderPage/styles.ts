@@ -31,16 +31,36 @@ const ContainerHeaderPage = styled.div`
     gap: 30px;
 
     .content-icon {
+      position: relative;
+
+      .float-notify {
+        position: absolute;
+        top: -6px;
+        right: -4px;
+
+        width: 16px;
+        height: 16px;
+
+        border-radius: 20px;
+
+        background-color: orange;
+
+        color: white;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 14px;
+      }
       svg {
-        width: 24px;
-        height: 24px;
+        width: 28px;
+        height: 28px;
         color: gray;
 
         cursor: pointer;
 
-        &:hover {
-          color: #1f79b9;
-        }
+        color: #1f79b9;
       }
     }
 
