@@ -1,4 +1,5 @@
-import { ContainerProductionSection } from "./styles";
+import { useEffect } from "react";
+import gsap from "gsap";
 
 import ImageArrow from "../../assets/images/shoe/image_arrow.png";
 import ImageMid from "../../assets/images/shoe/mid_group.png";
@@ -12,7 +13,19 @@ import Profile3 from "../../assets/images/profile/profile_3.jpg";
 import ImgShoe2 from "../../assets/images/shoe_2.png";
 import ImgShoe3 from "../../assets/images/shoe_3.png";
 
+import { ContainerProductionSection } from "./styles";
+
 export default function ProductSection() {
+  useEffect(() => {
+    const bodySelector = window.document.getElementById("root");
+
+    gsap.to(bodySelector, {
+      opacity: 1,
+      delay: 2,
+      duration: 1,
+    });
+  }, []);
+
   return (
     <ContainerProductionSection>
       <div className="content-left">

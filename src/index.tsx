@@ -5,6 +5,7 @@ import HeaderPage from "./sections/HeaderPage";
 import ProductSection from "./sections/ProductSection";
 
 import { GlobalStyles, ContainerLandingPage } from "./styles";
+
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
