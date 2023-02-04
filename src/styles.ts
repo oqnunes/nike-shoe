@@ -13,11 +13,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+
   #root {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+  opacity: 0;
   }
 }
 `;
